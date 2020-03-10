@@ -22,7 +22,8 @@ SET time_zone = "+00:00";
 -- Base de datos: `datospuertos`
 --
 
--- --------------------------------------------------------
+CREATE DATABASE IF NOT EXISTS `datospuertos` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `datospuertos`;
 
 --
 -- Estructura de tabla para la tabla `datos`
