@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Servicios Detectados</title>
-    <meta name="author" content="Maricarmen Gonzalez Rodriguez" />
+    
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         $clave = "";
         $conexion = mysqli_connect($servidor, $usuario, $clave, "datospuertos");
         if (!$conexion) {
-            echo "No se pudo conectar Amiguito";
+            echo "No se pudo conectar";
             exit;
         }
         $query = "SELECT * FROM datos";
